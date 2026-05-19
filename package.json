@@ -1,0 +1,18 @@
+{
+  "name": "collaborative-wiki-backend",
+  "version": "1.0.0",
+  "description": "Production-ready collaborative wiki backend with MongoDB, OCC, analytics, and full-text search.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.18.2",
+    "mongodb": "^5.8.0"
+  }
+}
